@@ -1,16 +1,16 @@
-//by default '0' will be displayed in display screen
-document.getElementById('display').innerText='0';
 
-//catching the keys
-let keys = document.querySelectorAll("#keyboard>div");
+document.getElementById('display').innerText='0'; //at begning '0' will be displayed
+
+let keys = document.querySelectorAll("#keyboard>div"); //catching the keys
+
 let out = ""; //initilization of an empty string for output
 
-//adding the click event to all the keys
+//listening click event to keys
 for (let i = 0; i < keys.length; i++) {
     keys[i].addEventListener("click", handleCalculations);
 };
 
-//code to handle the calculations
+//handling the calculations
 function handleCalculations() {
 
     let x = event.target.innerText;

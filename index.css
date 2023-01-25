@@ -61,9 +61,26 @@ h1 {
 }
 .red {
   background-color: red;
-  color: white;
+  color: #fff;
 }
 .black {
   background-color: black;
-  color: white;
+  color: #fff;
+}
+@media only screen and (max-width: 425px) {
+  #container {
+    width: 400px;
+  }
+  #display {
+    height: 60px;
+    margin-top: 6px;
+    font-size: 32px;
+  }
+  #keyboard {
+    width: 90%;
+  }
+  #keyboard > div {
+    border-radius: 32%;
+    font-size: 18px;
+  }
 }
