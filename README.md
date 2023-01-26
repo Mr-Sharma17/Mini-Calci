@@ -1,5 +1,5 @@
 # Mini-Calci
-Have a look at *[here](https://mini-calci.netlify.app/)*
+Have a look *[here](https://mini-calci.netlify.app/)*.
 
 
 # About
